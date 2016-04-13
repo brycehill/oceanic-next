@@ -1,5 +1,6 @@
 " GUI color definitions
-let s:gui00 = '141e23' "{{{
+"let s:gui00 = '141e23' "{{{
+let s:gui00 = '1b2b34'
 let s:gui01 = '343d46'
 let s:gui02 = '4f5b66'
 let s:gui03 = '65737e'
@@ -256,13 +257,14 @@ call <sid>hi("GitGutterChangeDelete",  s:gui0E, s:gui01, s:cterm0E, s:cterm01, "
 " HTML highlighting
 call <sid>hi("htmlBold",    s:gui0A, "", s:cterm0A, "", "") "{{{
 call <sid>hi("htmlItalic",  s:gui0E, "", s:cterm0E, "", "")
-call <sid>hi("htmlEndTag",  s:gui05, "", s:cterm05, "", "")
-call <sid>hi("htmlTag",     s:gui05, "", s:cterm05, "", "") "}}}
+call <sid>hi("htmlEndTag",  s:gui0C, "", s:cterm05, "", "")
+call <sid>hi("htmlTag",     s:gui0C, "", s:cterm05, "", "") "}}}
 
 " JavaScript highlighting
 call <sid>hi("javaScript",        s:gui05, "", s:cterm05, "", "") "{{{
 call <sid>hi("javaScriptBraces",  s:gui05, "", s:cterm05, "", "")
 call <sid>hi("javaScriptNumber",  s:gui09, "", s:cterm09, "", "") "}}}
+call <sid>hi("javaScriptEndColons",  s:gui0C, "", s:cterm09, "", "") "}}}
 
 " Markdown highlighting
 call <sid>hi("markdownCode",              s:gui0B, "", s:cterm0B, "", "") "{{{
